@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.categories, .discounts, #nosotros, #contacto {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.category-grid, .discount-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.category-item, .discount-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 4rem 2rem;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #35424a;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+social-media a:hover {
+    text-decoration: underline;
+}
